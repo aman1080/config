@@ -25,17 +25,3 @@ springdoc:
 
   swagger-ui:
     enabled: true
-
-swagger:
-  servers:
-    - name: DEV
-      url: http://localhost:8081
-
-    - name: QA
-      url: https://qa-api.example.com/auth
-
-    - name: UAT
-      url: https://uat-api.example.com/auth
-
-    - name: PROD
-      url: https://api.example.com/auth
