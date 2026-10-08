@@ -17,3 +17,9 @@ swagger:
 
     - name: PROD
       url: https://api.example.com/auth
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
