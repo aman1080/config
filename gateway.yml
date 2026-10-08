@@ -1,10 +1,4 @@
-server:
-  port: 9090
-
 spring:
-  application:
-    name: gateway
-
   cloud:
     gateway:
       server:
