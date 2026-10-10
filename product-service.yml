@@ -28,3 +28,9 @@ spring:
 
   cache:
     type: redis
+
+common:
+  logging:
+    manager:
+      enabled: true
+      base-package: com.mycompany.productservice
