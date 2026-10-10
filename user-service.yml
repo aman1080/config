@@ -29,10 +29,17 @@ spring:
     type: redis
 
   datasource:
-    url: jdbc:mysql://localhost:3306/user_service
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    user:
+      url: jdbc:mysql://localhost:3306/user_service
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+    audit:
+      url: jdbc:mysql://localhost:3306/audit_db
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
 
 common:
   logging:
