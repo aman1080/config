@@ -45,4 +45,4 @@ common:
   logging:
     manager:
       enabled: true
-      base-package: com.mycompany.userservice
+      base-package: com.practice.user
