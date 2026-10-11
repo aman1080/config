@@ -46,4 +46,4 @@ common:
   logging:
     manager:
       enabled: true
-      base-package: com.mycompany.productservice
+      base-package: com.practice.payment
