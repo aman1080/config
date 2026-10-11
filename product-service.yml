@@ -46,4 +46,4 @@ common:
   logging:
     manager:
       enabled: true
-      base-package: com.practice.product
+      base-package: com.practice.Product
