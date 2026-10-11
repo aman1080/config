@@ -47,3 +47,16 @@ common:
     manager:
       enabled: true
       base-package: com.practice.Product
+
+
+logging:
+  http:
+    enabled: true
+    include-headers: false
+    include-request-body: false
+    include-response-body: false
+    include-query-params: true
+    include-client-ip: true
+    include-controller-method: true
+    slow-request-threshold-ms: 1000
+
